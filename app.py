@@ -5,7 +5,7 @@ from news_fetcher import fetch_news, filter_articles
 import os
 from dotenv import load_dotenv
 import logging
-from langchain_community.llms import OpenAI  # Updated import
+from langchain_community.llms import OpenAI
 from flask_cors import CORS
 
 load_dotenv()
@@ -77,7 +77,7 @@ def summarize():
                     'title': article.get('title', 'No title'),
                     'description': summary_text,
                     'image': article.get('urlToImage'),
-                    'url': article.get('url')  # Ensure URL is included
+                    'url': article.get('url')
                 })
             except Exception as e:
                 logging.error(f"Error summarizing article '{article['title']}': {e}")
@@ -85,14 +85,14 @@ def summarize():
                     'title': article.get('title', 'No title'),
                     'description': f"Failed to summarize article: {e}",
                     'image': article.get('urlToImage'),
-                    'url': article.get('url')  # Ensure URL is included
+                    'url': article.get('url')
                 })
         else:
             summaries.append({
                 'title': article.get('title', 'No title'),
                 'description': "No content available.",
                 'image': article.get('urlToImage'),
-                'url': article.get('url')  # Ensure URL is included
+                'url': article.get('url')
             })
 
     logging.debug(f"Generated Summaries: {summaries}")

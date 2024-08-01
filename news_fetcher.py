@@ -19,7 +19,6 @@ def filter_articles(articles, preferences):
     if not preferences:
         return articles
 
-    # Separate articles into those that match preferences and those that don't
     matched_articles = []
     non_matched_articles = []
 
