@@ -1,1 +1,1 @@
-# newssummarize
+I am thrilled to share that I’ve completed my first project leveraging Large Language Models (LLMs) with cutting-edge tools like Ollama and Hugging Face. This experience has been incredibly rewarding, allowing me to explore the vast potential of AI-driven solutions. Working with these advanced technologies has given me a deeper appreciation for the power of machine learning and its transformative impact. I’m excited to continue honing my skills and pushing the boundaries of what’s possible with AI in future projects.
