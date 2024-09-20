@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="851f2656-f37e-45f5-838a-3c98e5cf6ebe" name="Changes" comment="done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news_fetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/news_fetcher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +134,8 @@
       <workItem from="1721547434495" duration="24505000" />
       <workItem from="1721652735537" duration="4398000" />
       <workItem from="1722085087741" duration="767000" />
+      <workItem from="1722522573122" duration="1918000" />
+      <workItem from="1726850308618" duration="445000" />
     </task>
     <task id="LOCAL-00001" summary="set up the first app">
       <option name="closed" value="true" />
